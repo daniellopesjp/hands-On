@@ -87,41 +87,41 @@
     <section class="section-wrapper">
       <header class="section-header">
         <h1 class="section-header__title">Disciplina</h1>
+        <button class="button button--success" onclick="createDiscipline()">Nova Disciplina</button>
       </header>
       <div class="subject-list">
-        <div class="subject-card">
-          <h3 class="subject-card__title">Nome da disciplina</h3>
-          <hr />
-          <ul class="subject-card__list">
-            <li>carga horária: 16h</li>
-            <li>Professor: Pessoa da Silva</li>
-            <li>Status <span class="tag tag--danger">Obrigatória</span></li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-
-        <div class="subject-card">
-          <h3 class="subject-card__title">Nome da disciplina</h3>
-          <hr />
-          <ul class="subject-card__list">
-            <li>carga horária: 16h</li>
-            <li>Professor: Pessoa da Silva</li>
-            <li>Status <span class="tag tag--success">Opcional</span></li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </div>
-
-        <div class="subject-card">
-          <h3 class="subject-card__title">Nome da disciplina</h3>
-          <hr />
-          <ul class="subject-card__list">
-            <li>carga horária: 16h</li>
-            <li>Professor: Pessoa da Silva</li>
-            <li>Status <span class="tag tag--success">Opcional</span></li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+                
       </div>
+      <dialog class="modal" id="discipline-modal">
+        <div class="modal__container">
+          <header class="modal__header">
+            <h3 id="discipline-modal-title">Nova Disciplina</h3>
+          </header>
+          <form id="discipline-form" class="modal__form">
+            <fieldset>
+              <label for="nome">Nome da disciplina</label>
+              <input type="text" placeholder="Digite o nome da disciplina..." name="disciplina" id="disciplina">
+              <label>Carga Horária</label>
+              <input type="text" placeholder="Digite a carga Horária" id="horario" name="horario">
+              <label>Nome do professor</label>
+              <input type="text" placeholder="Digite o nome do professor" id="professor" name="professor">
+              <label for="status">Selecione o Status</label>
+                <select name="status" id="status">
+                  <option value="0">Opcional</option>
+                  <option value="1">Obrigatória</option>
+                </select>
+              <label>Observações</label>
+              <textarea id="observacao" name="observacao" rows="5" cols="50" placeholder="Digite as observações sobre a disciplina"></textarea>
+            </fieldset>
+            <div class="modal__form-buttons">
+              <button class="button button--danger" type="reset" onclick="closeDisciplineModal()">
+                Cancelar
+              </button>
+              <button class="button button--success" type="submit" id="save-discipline">Salvar</button>
+            </div>
+          </form>
+        </div>
+      </dialog>
     </section>
   </main>
   <footer class="footer">

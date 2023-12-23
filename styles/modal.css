@@ -47,7 +47,8 @@
   padding: 5px 0;
 }
 
-.modal__form input, 
+.modal__form input,
+.modal__form textarea, 
 .modal__form select {
     box-sizing: border-box;
     display: block;
@@ -64,6 +65,7 @@
 
 
 .modal__form input:focus,
+.modal__form textarea:focus,
 .modal__form textarea:focus {
   border-color: var(--verde);
 }

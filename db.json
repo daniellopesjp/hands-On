@@ -1,56 +1,56 @@
 {
   "alunos": [
     {
-      "nome": "Nélio Frazão Chaves2123",
-      "matricula": "204764522",
+      "nome": "Ana Silva",
+      "matricula": "1001",
       "curso": "Sistemas para internet",
       "id": 1
     },
     {
-      "nome": "Nélio Frazão Chaves",
-      "matricula": "2047645",
+      "nome": "Carlos Oliveira",
+      "matricula": "2002",
       "curso": "Sistemas para internet",
       "id": 2
     },
     {
-      "nome": "Nélio Frazão Chaves",
-      "matricula": "0031",
-      "curso": "Sistemas para internet",
+      "nome": "Maria Santos",
+      "matricula": "3003",
+      "curso": "Redes",
       "id": 3
     }
   ],
   "disciplinas": [
     {
-      "id": 1,
-      "nome": "Introdução a progração com scripts",
-      "cargaHoraria": "36h",
-      "professor": "Tiago Daniel Fernando Baptista",
-      "status": "Obrigatória",
-      "observacos": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "disciplina": "Introdução à Programação",
+      "horario": "60 horas",
+      "professor": "Dr. Luís Silva",
+      "status": "0",
+      "observacao": "Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Bota 1 metro de cachacis aí pra viagem! Negão é teu passadis, eu sou faxa pretis. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!",
+      "id": 6
     },
     {
-      "id": 2,
-      "nome": "Fundamentos da Computação",
-      "cargaHoraria": "60h",
-      "professor": "Marcela Vera Mendes",
-      "status": "Obrigatória",
-      "observacos": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "disciplina": "Introdução à Programação",
+      "horario": "60 horas",
+      "professor": "Dr. Luís Silva",
+      "status": "1",
+      "observacao": "Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. Bota 1 metro de cachacis aí pra viagem! Negão é teu passadis, eu sou faxa pretis. Eu nunca mais boto a boca num copo de cachaça, agora eu só uso canudis!",
+      "id": 7
     },
     {
-      "id": 2,
-      "nome": "Linguagens de Marcação",
-      "cargaHoraria": "67h",
-      "professor": "Marcela Vera Mendes",
-      "status": "Obrigatória",
-      "observacos": "Lorem ipsum dolor sit amet consectetur adipisicing."
+      "disciplina": "Redes de Computadores",
+      "horario": "75 horas",
+      "professor": "Dr. Carlos Santos",
+      "status": "0",
+      "observacao": "Diuretics paradis num copo é motivis de denguis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Cevadis im ampola pa arma uma pindureta. Negão é teu passadis, eu sou faxa pretis.",
+      "id": 8
     },
     {
-      "id": 3,
-      "nome": "Português Instrumental",
-      "cargaHoraria": "50h",
-      "professor": "Maitê Analu Carolina Aragão",
-      "status": "Opcional",
-      "observacos": "Lorem ipsum dolor sit adipisicing elit."
+      "disciplina": "Redes de Computadores",
+      "horario": "75 horas",
+      "professor": "Dr. Carlos Santos",
+      "status": "1",
+      "observacao": "Diuretics paradis num copo é motivis de denguis. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Cevadis im ampola pa arma uma pindureta. Negão é teu passadis, eu sou faxa pretis.",
+      "id": 9
     }
   ]
 }
